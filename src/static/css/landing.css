@@ -1,0 +1,60 @@
+.topBand{
+  border-top: solid 6px #F6DB7A;
+}
+.landingContainer {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.landingContainer span {
+  font-size: 32px;
+  font-weight: light;
+}
+.oneciphorousLogo{
+  width: 70%;
+  margin: 0;
+}
+.landingDescription{
+  font-size: 21px;
+  margin-top: 30px;
+}
+.goldbarLogo {
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+}
+.contactus{
+  border-top: solid 2px lightgrey;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.contactus li{
+  list-style: none;
+  margin-top: 8px;
+}
+.contactus ul {
+  margin: 0 auto;
+  padding: 0;
+}
+.footer{
+  margin-top: 50px;
+}
+
+@media (max-width: 430px) {
+  .landingContainer{
+    width: 92%;
+    margin-top: 30px;
+  }
+  .landingContainer h1 {
+    font-size: 26px;
+  }
+  .landingDescription {
+    font-size: 16px;
+  }
+  .contactus{
+    width: 80%;
+    margin-top: 40px;
+  }
+}
