@@ -14,10 +14,11 @@ class Landing extends React.Component {
             innovative mobile products geared towards advancing lifestyle and
             addressing up to date real life needs.
           </p>
-          <p className="landingDescription">
-            Check out our first license Game
+          <p className="landingDescriptionLicense">
+            Check out our first licensed game.
           </p>
           <img className="goldbarLogo" src={goldbarLogo} alt="goldbarLogo"/>
+          <h3>GoldBar Game</h3>
           <div className="contactus">
             <h1>Contact Us</h1>
             <ul>
