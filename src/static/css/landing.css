@@ -54,7 +54,7 @@
   .landingContainer h1 {
     font-size: 26px;
   }
-  .landingDescription {
+  .landingDescription, .landingDescriptionLicense {
     font-size: 16px;
   }
   .contactus{
