@@ -17,7 +17,10 @@ class Landing extends React.Component {
           <p className="landingDescriptionLicense">
             Check out our first licensed game.
           </p>
-          <img className="goldbarLogo" src={goldbarLogo} alt="goldbarLogo"/>
+          <a href="http://goldbargame.com/" target="_blank" rel="noopener noreferrer">
+            <img className="goldbarLogo" src={goldbarLogo} alt="goldbarLogo"/>
+          </a>
+
           <h3>GoldBar Game</h3>
           <div className="contactus">
             <h1>Contact Us</h1>
